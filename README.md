@@ -58,3 +58,10 @@ npm install
 # 애뮬레이터 연결 오류
 adb reverse tcp:8080 tcp:8080
 ```
+
+### apk 실행 모드
+
+```bash
+# 휴대폰 연결
+npx react-native run-android --mode=release
+```
